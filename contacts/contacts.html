@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Blog</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <a href="../index.html">Logo</a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a class="link " class="link" href="../index.html">Home</a></li>
+                <li><a class="link active" href="./contacts/contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <form class="form-search">
+            <input type="search" name="search" placeholder="Введите поисковый запрос..." class="form-search__search">
+            <input type="image" src="../images/Kak-ispolzovat-poisk-s-pomoshhyu-apt-cache-dlya-poiska-paketov.png">
+        </form>
+    </header>
+
+    <div class="container">
+        <form class="form-contact">
+            <h1 class=" mb-2 text-center">Заполните форму</h1>
+            <div class=" mb-2 form-contact__date">
+                <input type="text" name="user_name" placeholder="Ваше имя" required>
+                <input type="number"name="user_age" placeholder="Ваш возраст" min="5" max="70">
+                <input type="email"name="user_email" placeholder="Ваша почта" required>
+                <input type="password"name="user_password" placeholder="Ваш пороль" required>
+            </div>
+
+            <div class="mb-2">
+               <label for="color">Ваш любимый цвет танка:</label>
+               <input type="color" name="color" id="color">
+            </div>
+            <div class="mb-2">
+                <label for="date">Когда началась 2 мировая война :</label>
+                <input type="date" name="vacation" id="date">
+             </div>
+             <div class="mb-2">
+                <label for="file">Фото вашего любимого танка :</label>
+                <input type="file" name="photo_place" id="file">
+             </div>
+            <div class="mb-2">
+                <b>Ваши любимые танки</b>
+                <br>
+                <label for="КВ-2">КВ-2</label>
+                <input type="checkbox" name="Tank" value="КВ-2" id="КВ-2">
+                <br>
+                <label for="Т-34">Т-34</label>
+                <input type="checkbox" name="Tank" value="Т-34" id="Т-34">
+                <br>
+                <label for="ИСУ-152">ИСУ-152</label>
+                <input type="checkbox" name="Tank" value="ИСУ-152" id="ИСУ-152">
+            </div>
+            <div class="mb-2">
+                <b>Ваши любимые строна производства</b>
+                <br>
+                <label for="России">России</label>
+                <input type="radio" name="a country" value="России" id="России" checked>
+                <br>
+                <label for="Германии">Германии</label>
+                <input type="radio" name="a country" value="Германии" id="Германии">
+                <br>
+                <label for="Америка">Америка</label>
+                <input type="radio" name="a country" value="Америка" id="Америка">
+                
+            </div>
+            <div class="mb-2">
+                <textarea name="user_about" placeholder="Напишите о себе" class="form-contact__about"></textarea>
+            </div>
+
+            <div>
+                <button type="reset" class="btn btn-danger">Очистить</button>
+                <button type="submit" class="btn btn-success">Отправить</button>
+            </div>
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <p>копирование запрещено</p>
+    </footer>
+</body>
+
+</html>
