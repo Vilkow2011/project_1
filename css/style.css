@@ -84,6 +84,8 @@ a {
     background-color: rgb(255, 255, 255);
  }
 
+
+
 .article__item {
     border-bottom: 1px solid rgb(0, 255, 64);
     padding-bottom: 20px;
@@ -91,7 +93,9 @@ a {
 }
  
 
- 
+ .article__title{
+    text-align: center;
+ }
 
  .menu{
     display: flex;
